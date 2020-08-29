@@ -1,0 +1,77 @@
+
+.logo_head{
+    background-color: #FFC516;
+
+    position: relative;
+    box-shadow: 0px 5px 10px black;
+  
+}
+
+.button_pos{
+    position: absolute;
+    right: 60px;
+    top: 40px;
+}
+button{ 
+    border-color: black;
+
+    font-size: 2em;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0.2em;
+    color:black;
+    background-color: #FFD61C;
+    transition: transform 0.5s;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0px 8px 5px black;
+
+
+}
+
+section{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+}
+h2{
+    
+    padding-top: 2rem;
+    
+}
+.illus_{
+    transition: transform 0.2s;
+}
+.illus_:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+
+
+
+h4{ background-color: #FFE77B;
+    border-radius: 30px;
+    text-align: justify;
+    margin: 2rem;
+    font-weight: 500 ;
+    font-size: medium;
+    
+
+
+}
+p{
+    padding: 2rem;
+    font-size: larger;
+    font-weight: 600;
+    font-family: 'Architects Daughter', cursive;
+
+}
+
+
+
+
+
+
